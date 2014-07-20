@@ -4,7 +4,11 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+	    "php": "~5.5.12",
+	    "ext-memcached": "*",
+	    "ext-mongo": "*",
+	    "ext-mongo": "*"
 	},
 	"autoload": {
 		"classmap": [
